@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DecodeLabs | Modern Frontend Development Studio. Crafting pixel-perfect interfaces through semantic architecture and technical integrity.">
+    <title>DecodeLabs — Frontend Development Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+                    <rect x="8" y="8" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" rx="4"/>
+                    <path d="M 20 20 L 28 28 M 28 20 L 20 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo__text">DecodeLabs</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__heading">
+                    Build Digital Foundations<br>
+                    <span class="hero__accent">That Last</span>
+                </h1>
+                <p class="hero__subheading">
+                    We craft pixel-perfect interfaces grounded in semantic integrity. 
+                    Frontend development as engineering discipline.
+                </p>
+                <a href="#contact" class="button button--primary">Start Your Project</a>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+                <div class="shape shape--1"></div>
+                <div class="shape shape--2"></div>
+                <div class="shape shape--3"></div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="services__container">
+                <h2 class="section-heading">Our Expertise</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <h3 class="service-card__title">Semantic Architecture</h3>
+                        <p class="service-card__description">
+                            Information architecture before code. Logical sitemaps, proper heading hierarchies, and machine-readable markup that scales.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">CSS Engineering</h3>
+                        <p class="service-card__description">
+                            DRY principles, BEM naming, separation of concerns. CSS as a systemic language, not a styling tool.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">Performance & Accessibility</h3>
+                        <p class="service-card__description">
+                            W3C validation, WCAG compliance, Core Web Vitals optimization. Inclusive design isn't optional—it's essential.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">Visual Regression Testing</h3>
+                        <p class="service-card__description">
+                            Pixel-perfect renders. Every layout tested. Design intent meets technical execution with zero drift.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process">
+            <div class="process__container">
+                <h2 class="section-heading">The DecodeLabs Process</h2>
+                <div class="process__steps">
+                    <div class="step">
+                        <span class="step__number">01</span>
+                        <h3 class="step__title">Discovery & IA</h3>
+                        <p class="step__description">Structure before style. We define your information architecture and semantic blueprint first.</p>
+                    </div>
+                    <div class="step__divider" aria-hidden="true"></div>
+                    <div class="step">
+                        <span class="step__number">02</span>
+                        <h3 class="step__title">Design Systems</h3>
+                        <p class="step__description">Build component libraries using DRY principles. Every element defined once, used everywhere.</p>
+                    </div>
+                    <div class="step__divider" aria-hidden="true"></div>
+                    <div class="step">
+                        <span class="step__number">03</span>
+                        <h3 class="step__title">Quality Audit</h3>
+                        <p class="step__description">W3C validation, Lighthouse audits, WCAG compliance, visual regression—nothing ships without passing inspection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="projects" class="portfolio">
+            <div class="portfolio__container">
+                <h2 class="section-heading">Featured Projects</h2>
+                <div class="portfolio__grid">
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" width="280" height="180">
+                                <rect width="280" height="180" fill="#1a4d6d"/>
+                                <rect x="20" y="20" width="240" height="60" fill="#2d7a9e" rx="4"/>
+                                <rect x="20" y="100" width="110" height="50" fill="#4da6d6" rx="4"/>
+                                <rect x="150" y="100" width="110" height="50" fill="#4da6d6" rx="4"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-card__title">E-Commerce Platform</h3>
+                        <p class="project-card__description">12-column grid system, semantic product markup, accessibility-first component library.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3 Grid</span>
+                            <span class="tag">WCAG 2.1</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" width="280" height="180">
+                                <rect width="280" height="180" fill="#2d5a3d"/>
+                                <circle cx="70" cy="50" r="25" fill="#5a9e6f"/>
+                                <rect x="120" y="30" width="130" height="100" fill="#7ab896" rx="4"/>
+                                <line x1="20" y1="140" x2="260" y2="140" stroke="#5a9e6f" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-card__title">Corporate Website</h3>
+                        <p class="project-card__description">Information architecture with clear sitemap hierarchy. SEO-optimized heading structure.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">Semantic HTML</span>
+                            <span class="tag">BEM</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" width="280" height="180">
+                                <rect width="280" height="180" fill="#5a3d6b"/>
+                                <path d="M 30 150 L 70 80 L 110 130 L 150 60 L 190 110 L 230 70" stroke="#9b7bbf" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                <circle cx="70" cy="80" r="4" fill="#d4b5ff"/>
+                                <circle cx="150" cy="60" r="4" fill="#d4b5ff"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-card__title">Analytics Dashboard</h3>
+                        <p class="project-card__description">Data visualization with accessible color contrast. ARIA labels for complex components.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">Flexbox</span>
+                            <span class="tag">A11Y</span>
+                            <span class="tag">SVG</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="cta__container">
+                <h2 class="section-heading">Ready to Build Better Interfaces?</h2>
+                <p class="cta__text">
+                    Let's create a digital foundation built on semantic integrity, 
+                    technical excellence, and pixel-perfect precision.
+                </p>
+                <a href="#contact" class="button button--primary button--large">Get Started Today</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer__container">
+            <div class="footer__section">
+                <h3 class="footer__heading">DecodeLabs</h3>
+                <p class="footer__description">
+                    Frontend development studio specializing in semantic architecture 
+                    and technical integrity.
+                </p>
+            </div>
+            <aside class="footer__section">
+                <h3 class="footer__heading">Quick Links</h3>
+                <ul class="footer__list">
+                    <li><a href="#services" class="footer__link">Services</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="mailto:hello@decodelabs.tech" class="footer__link">Email Us</a></li>
+                </ul>
+            </aside>
+            <aside class="footer__section">
+                <h3 class="footer__heading">Contact</h3>
+                <p class="footer__text">
+                    <span aria-label="Email">📧</span> hello@decodelabs.tech<br>
+                    <span aria-label="Location">📍</span> Narowal, Pakistan
+                </p>
+            </aside>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">
+                © 2026 DecodeLabs. Built with semantic integrity. 
+                <span class="footer__heart" aria-label="Made with love">💙</span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
